@@ -1,0 +1,26 @@
+[
+  {
+    "question": " What was Twitter’s original name?",
+    "choice1": "twttr",
+    "choice2": "tweeter",
+    "choice3": "tweet tweet",
+    "choice4": "twitter",
+    "answer": 1
+  },
+  {
+    "question": " Which bone are babies born without?",
+    "choice1": "jaw bone",
+    "choice2": "hip bone",
+    "choice3": "knee cap",
+    "choice4": "skull",
+    "answer": 3
+  },
+  {
+    "question": " How do you write 'Hello World' in an alert box?",
+    "choice1": "msgBox('Hello World');",
+    "choice2": "alertBox('Hello World');",
+    "choice3": "msg('Hello World');",
+    "choice4": "alert('Hello World');",
+    "answer": 4
+  }
+]
