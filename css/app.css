@@ -81,8 +81,7 @@ h3 {
   border: none;
 
 }
-.card2 {
-  /* background-image: linear-gradient( blue, black); */
+/* .card2 {
   display: row;
   justify-content: center;
   align-items: center;
@@ -93,7 +92,7 @@ h3 {
   border-radius: 20px;
   border: none;
 
-}
+} */
 
 .flex-column {
   display: flex;
