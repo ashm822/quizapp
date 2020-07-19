@@ -25,5 +25,6 @@ saveHighScore = (e) => {
     highScores.splice(5);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
+    alert("Congrats! Your recent score has been saved!")
     window.location.assign('highscores.html');
 };
