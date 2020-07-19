@@ -1,3 +1,22 @@
+body {
+  background-image: linear-gradient( rgb(6, 82, 223), rgb(4, 4, 56));
+}
+
+.container {
+  width: 55vh;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: solid 1px white;
+  box-shadow: 1px 1px 2.4rem 2px rgba(86, 185, 235, 0.5);
+  
+}
+
 .choice-container {
   display: flex;
   margin-bottom: 1rem;
@@ -50,10 +69,11 @@
 #hud {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
   border: 0.5rem solid rgba(11, 11, 12, 0.25);
   box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  width: 100%
 }
 
 .hud-prefix {
@@ -68,10 +88,10 @@
 }
 
 #progressBar {
-  width: 20rem;
+  width: 10em;
   height: 2.5rem;
   border: 0.3rem solid #56a5eb;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   border-radius: 50px;
 }
 

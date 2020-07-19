@@ -15,9 +15,9 @@ let questions = [];
 
 fetch(
     // 'https://opentdb.com/api.php?amount=15&type=multiple' // All
-    // 'https://opentdb.com/api.php?amount=15&category=27&type=multiple' // Animals
+    'https://opentdb.com/api.php?amount=15&category=27&type=multiple' // Animals
     // 'https://opentdb.com/api.php?amount=15&category=11&type=multiple'  // Movies
-    'https://opentdb.com/api.php?amount=15&category=21&difficulty=easy&type=multiple' // sports
+    // 'https://opentdb.com/api.php?amount=15&category=21&difficulty=easy&type=multiple' // sports
 )
     .then((res) => {
         return res.json();
@@ -50,7 +50,7 @@ fetch(
     });
 
 //Setting/Score CONST
-const CORRECT_BONUS = 5;
+const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
 startGame = () => {
