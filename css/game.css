@@ -13,7 +13,6 @@ body {
   margin-left: 0px;
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 1px 1px 2.4rem  rgba(86, 185, 235, 0.5);
   
 }
 
@@ -71,7 +70,7 @@ body {
   justify-content: space-between;
   padding: 10px;
   margin: 10px;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  /* box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5); */
   width: 100%;
 }
 
